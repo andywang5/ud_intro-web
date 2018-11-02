@@ -77,7 +77,8 @@
 		width: 100vw !important;
 		margin: 0;
 		position: inherit;
-		background-size: 200%;
+		background-size: 200%;	
+    	padding-top: 28px !important;
 	}
 
 	.features{
@@ -95,8 +96,14 @@
 	.UDfuture_0, .UDfuture_02, .UDfuture_03{
 		margin-left: -40px;
 	}
+	#Introduce_4 span{
+		font-size: 26px;
+	}
 } 
 @media only screen and (min-width: 420px) and (max-width: 768px) {
+	.container{
+		width:100%
+	}
 	#header.alt{
 		font-size: 26px;
 	}
@@ -208,29 +215,51 @@
 	#Introduce_3{
 		width: 100vw !important;
 		height: 60vh !important;
+		position: relative;
 	}
 	#Introduce_3 .bgimg_01{
 		width: 100vw !important;
 		margin: 0;
-		position: inherit;
 		background-size: 200%;
+		position: absolute;
+		left: -5%;
 	}
 	#Introduce_5{
 		width: 100vw !important;
 		height: 60vh !important;
+		position: relative;
 	}
 	#Introduce_5 .bgimg_05{
 		width: 100vw !important;
 		margin: 0;
 		position: inherit;
 		background-size: 200%;
+    	padding-top: 10px !important;
+		position: absolute;
+		left: -5%;
 	}
 
-	.features{
-		margin-top: 100px !important;
+
+	#Introduce_4{
+		height: 500px;
+	}
+	#Introduce_4 span{
+		font-size: 16px;
 	}
 	#Introduce_4 .UDfuture_title span{
+		font-size: 20px;
 		margin-left: auto;
+		width: 100vw !important;
+	}
+	.ud_text{
+		margin-bottom: 0;
+		margin-top: 0;
+		-webkit-animation: none;
+		animation-delay: none;
+		-webkit-animation-delay: none;
+		-webkit-animation-fill-mode: none;
+		animation-fill-mode: none;
+		opacity: 1;
 	}
 	#Introduce_4 .UDfuture_title{
 		width: 100%;
@@ -238,15 +267,314 @@
 	#Introduce_4 .ud_analyze img{
 		text-align: left;
 	}
-	.UDfuture_0, .UDfuture_02, .UDfuture_03{
+	.UDfuture_01, .UDfuture_02, .UDfuture_03{
 		margin-left: -40px;
 	}
 
-	
+	#Introduce_4 .UDfuture_01, #Introduce_4 .UDfuture_03{
+		width: 35% !important;
+		float: left !important;
+		height: 200px;
+	}
+	#Introduce_4 .UDfuture_02{
+		width: 30% !important;
+		float: left !important;
+		height: 200px;
+
+	}
+	#Introduce_4 .UDfuture_02 img{
+		margin-top: 50px;
+	}
+	#Introduce_4 .UDfuture_01 img, #Introduce_4 .UDfuture_03 img{
+		height: 100px;
+		margin-bottom: 20px;
+	}
+	.box.special{
+		width: 90vw !important;
+		margin-top: 100px !important;
+	}
+	#Introduce_4 .UDfuture_02 img{
+		width: 50px;
+	}
+	#Introduce_4 .UDfuture_title span{
+		margin-left: auto;
+	}
+	#Introduce_4 .UDfuture_title{
+		width: 100%;
+	}
 
 } 
 @media only screen and (min-width: 0px) and (max-width: 420px) {
  
+	.container{
+		width:100%
+	}
+	#header.alt{
+		font-size: 26px;
+	}
+	.ud-home{
+		background-size: 30px;
+    	background-position: right;
+	}
+	#banner{
+		width: 100vw;
+		height: 100vh;
+	}
+	#banner .index_title{
+		margin-top: 40%;
+	}
+	#banner .header_title{
+		font-size: 40px;
+		line-height: 100px;
+	}
+	#banner .index_title p{
+		font-size: 12px;
+		line-height: 20px;
+	}
+	ul.actions{
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	#banner .button{
+		width: 30%;
+	}
 
+	#main > .box:first-child{
+		padding: 100px 0;
+		margin-top: 100px;
+		width: 90%;
+	}
+	#main>section{
+		width: 90%;
+		margin: 100px auto;
+	}
+	#main .major .box_title{
+		font-size: 26px;
+	}
+	#main .major p{
+		font-size: 12px;
+	}
+	.container{
+		width: 100%;
+	}
+	.row{
+		padding-top: 50px;
+	}
+	#main .major p img{
+		margin-top: 30px;
+	}
+	header.major{
+		padding: 0 2em;
+	}
+	
+	#Introduce_1 .circle_01 .circle_01_text{
+		width:250px;
+		line-height: 50px;
+		position:absolute;
+		top:30%;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align:center;
+	}
+	#Introduce_1 .circle_01 .circle_01_text .circle_title{
+		font-size:30px;
+		letter-spacing:5px;
+		width:250px;
+	}
+	#Introduce_1 .circle_01 .circle_01_text .circle_div{
+		font-size:14px;
+		letter-spacing:1px;
+		color:#444444;
+	}
+	#Introduce_1 .circle_01 .circle_01_left{
+		width: 250px;
+		height: 250px;
+		animation:none;
+		-webkit-animation:none;
+		opacity: 1;
+		top:40px;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top:0;
+	}
+	#Introduce_1 .circle_01 .circle_01_right{
+		width: 250px;
+		height: 250px;
+		animation:none;
+		-webkit-animation:none;
+		opacity: 1;
+		bottom:40px;
+		right: 50%;
+		top:auto;
+		margin-top:0;
+		transform: translateX(50%);
+	}
+	#Introduce_1 .div_arrow{
+		top: 0px;
+	}
+	#Introduce_1 #arrow, #Introduce_1 #arrow2{
+		width: 35px !important;
+	}
+
+	#Introduce_2{
+		width: 90vw !important;
+		height: 300px;
+	}
+	#Introduce_2 .circle_result_icon{
+		width: 30% !important;
+		height: 150px;
+		margin-top: 0;
+		float: left !important;
+	}
+	#Introduce_2 .circle_result_title{
+		width: 69% !important;
+		height: 150px;
+		margin-top: 0;
+		float: right !important;
+		padding-top: 30px !important;
+	}
+	#Introduce_2 .circle_result_title h2{
+		font-size: 8px;
+		line-height: 40px;
+	}
+	#Introduce_2 .circle_result_icon img{
+		top: 30%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	#Introduce_3{
+		width: 100vw !important;
+		height: 60vh !important;
+	}
+	#Introduce_3 .bgimg_01{
+		width: 100vw !important;
+		height: 300px;
+		margin: 0;
+		position: inherit;
+		background-size: 400%;
+	}
+	#Introduce_3 h1{
+		font-size: 20px;
+		height: 300px;
+		line-height: 300px;
+	}
+	#Introduce_5{
+		width: 100vw !important;
+		height: 60vh !important;
+	}
+	#Introduce_5 .bgimg_05{
+		width: 100vw !important;
+		height: 300px;
+		margin: 0;
+		position: inherit;
+		background-size: 400%;
+    	padding-top: 0 !important;
+	}
+	#Introduce_5 h1{
+		font-size: 20px;
+		height: 200px;
+		line-height: 100px;
+	}
+	#Introduce_4{
+		height: 400px;
+	}
+	#Introduce_4 span{
+		font-size: 10px;
+	}
+	#Introduce_4 .UDfuture_title span{
+		font-size: 12px;
+		margin-left: auto;
+		width: 100vw !important;
+	}
+	.ud_text{
+		margin-bottom: 0;
+		margin-top: 0;
+		-webkit-animation: none;
+		animation-delay: none;
+		-webkit-animation-delay: none;
+		-webkit-animation-fill-mode: none;
+		animation-fill-mode: none;
+		opacity: 1;
+	}
+	#Introduce_4 .UDfuture_title{
+		width: 100%;
+	}
+	#Introduce_4 .ud_analyze img{
+		text-align: left;
+	}
+	.UDfuture_01, .UDfuture_02, .UDfuture_03{
+		margin-left: -40px;
+	}
+
+	#Introduce_4 .UDfuture_01, #Introduce_4 .UDfuture_03{
+		width: 35% !important;
+		float: left !important;
+		height: 150px;
+	}
+	#Introduce_4 .UDfuture_02{
+		width: 30% !important;
+		float: left !important;
+		height: 150px;
+
+	}
+	#Introduce_4 .UDfuture_02 img{
+		margin-top: 30px;
+	}
+	.ud_analyze{
+		display: block;
+		margin-left: -10px;
+		margin-top: 7px;
+		-webkit-animation: none;
+		-webkit-animation-fill-mode: none;
+		animation-fill-mode: none;
+		opacity: 1;
+	}
+	.ud_arrow{
+		display: block;
+		margin-left: -10px;
+		margin-top:0;
+		-webkit-animation: none;
+		animation-delay: none;
+		-webkit-animation-delay: none;
+		-webkit-animation-fill-mode: none;
+		animation-fill-mode: none;
+		opacity: 1;
+	}
+	.ud_diary{
+		display: block;
+		margin-left: -10px;
+		margin-top: 0;
+		-webkit-animation: none;
+		animation-delay: none;
+		-webkit-animation-delay: none;
+		-webkit-animation-fill-mode: none;
+		animation-fill-mode: none;
+		opacity: 1;
+	}
+	#Introduce_4 .UDfuture_01 img, #Introduce_4 .UDfuture_03 img{
+		height: 60px;
+		margin-bottom: 20px;
+	}
+	.box.special{
+		width: 90vw !important;
+		margin-top: 100px !important;
+	}
+	#Introduce_4 .UDfuture_02 img{
+		width: 50px;
+	}
+	#Tech_idea .Tech_idea_title{
+		height: 100px;
+	}
+	#Tech_idea .Tech_idea_title h4{
+		font-size: 20px;
+	}
+	#Tech_idea .Tech_idea_title h6{
+		font-size: 12px;
+	}
+	#Tech_idea .major .Tech_idea_div{
+		height: 350px;
+	}
+		
 
 } 

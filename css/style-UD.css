@@ -10,6 +10,13 @@
 	/* padding:0 !important; */
 }
 
+body,html{
+	width: 100vw;
+	overflow-x: hidden;
+}
+#banner {
+	height: 100vh;
+}
 #banner .header_title{
 	font-size:60px;
 	font-weight:400;
@@ -247,7 +254,7 @@
     height: 35px;
 	position:absolute;
 	top:20px;
-	left:48%;
+	left:45%;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -274,7 +281,7 @@
     height: 35px;
 	position:absolute;
 	top:0;
-	left:48%;
+	left:45%;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -375,11 +382,11 @@
 	width:100%;
 	height:500px;
 	line-height:100px;
-	margin-top: 150px;
 	font-size:60px;
 	color:#ffffff;
 	text-align:center;
 	letter-spacing:5px;
+    margin-top: 150px;
 }
 #Introduce_3 h1{
 	width:100%;
@@ -467,7 +474,6 @@
 	letter-spacing:2px;
 	margin-top: 80px;
 	font-size:40px;
-	margin-left: 120px;
 }
 
 
@@ -612,10 +618,6 @@
 	letter-spacing:10px !important;
 	text-align:left;
 }
-.rwd_hide{
-	/* display: none; */
-	border-bottom: dotted 0px;
-}
 .vr-box .about_div{
 	float:left;
 	width:80%;
@@ -675,7 +677,7 @@
 }
 section.special, article.special {
 		text-align: center;
-		margin-top: 5rem;
+		margin-top: 200px;
 	}
 
 		section.special article, article.special article {
@@ -806,7 +808,7 @@ section.special, article.special {
 		
 				.box.person {
 					border: solid 1px rgba(255, 255, 255, 0.25);
-					padding: 3em 4em;
+					padding: 3em 1.5em;
 				}
 		
 					.box.person h3 {
@@ -891,9 +893,6 @@ section.special, article.special {
 									-webkit-justify-content: space-between;
 									-ms-justify-content: space-between;
 									justify-content: space-between;
-								}
-								#member_second{
-									justify-content: space-evenly;
 								}
 							
 									.flex.flex-2 article {
