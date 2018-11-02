@@ -612,6 +612,10 @@
 	letter-spacing:10px !important;
 	text-align:left;
 }
+.rwd_hide{
+	/* display: none; */
+	border-bottom: dotted 0px;
+}
 .vr-box .about_div{
 	float:left;
 	width:80%;
