@@ -1,0 +1,252 @@
+@import url(font-awesome.min.css);
+@import url(font.css);
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	#header.alt{
+		font-size: 26px;
+	}
+	.ud-home{
+		background-size: 30px;
+    	background-position: right;
+	}
+	#banner{
+		width: 100vw;
+		height: 100vh;
+	}
+	#banner .index_title{
+		margin-top: 40%;
+	}
+	#banner .header_title{
+		font-size: 100px;
+		line-height: 140px;
+	}
+	#banner .index_title p{
+		font-size: 26px;
+		line-height: 40px;
+	}
+	ul.actions{
+		font-size: 30px;
+		letter-spacing: 2px;
+	}
+
+	#main{
+		padding: 150px 0;
+	}
+	#main>section{
+		width: 80%;
+		margin: 100px auto;
+	}
+	.container{
+		width: 100%;
+	}
+	.row{
+		padding-top: 50px;
+	}
+	.box.special{
+		/* margin-bottom: 300px; */
+	}
+	#Introduce_1 .circle_01 .circle_01_left{
+		animation:none;
+		-webkit-animation:none;
+		opacity: 1;
+		left:-9%;
+	}
+	#Introduce_1 .circle_01 .circle_01_right{
+		animation:none;
+		-webkit-animation:none;
+		opacity: 1;
+		right: -9%;
+	}
+	
+	#Introduce_3{
+		width: 100vw !important;
+		height: 60vh !important;
+	}
+	#Introduce_3 .bgimg_01{
+		width: 100vw !important;
+		margin: 0;
+		position: inherit;
+		background-size: 200%;
+	}
+	#Introduce_5{
+		width: 100vw !important;
+		height: 60vh !important;
+	}
+	#Introduce_5 .bgimg_05{
+		width: 100vw !important;
+		margin: 0;
+		position: inherit;
+		background-size: 200%;
+	}
+
+	.features{
+		margin-top: 100px !important;
+	}
+	#Introduce_4 .UDfuture_title span{
+		margin-left: auto;
+	}
+	#Introduce_4 .UDfuture_title{
+		width: 100%;
+	}
+	#Introduce_4 .ud_analyze img{
+		text-align: left;
+	}
+	.UDfuture_0, .UDfuture_02, .UDfuture_03{
+		margin-left: -40px;
+	}
+} 
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+	#header.alt{
+		font-size: 26px;
+	}
+	.ud-home{
+		background-size: 30px;
+    	background-position: right;
+	}
+	#banner{
+		width: 100vw;
+		height: 100vh;
+	}
+	#banner .index_title{
+		margin-top: 30%;
+	}
+	#banner .header_title{
+		font-size: 80px;
+		line-height: 120px;
+	}
+	#banner .index_title p{
+		font-size: 22px;
+		line-height: 40px;
+	}
+	ul.actions{
+		font-size: 26px;
+		letter-spacing: 2px;
+	}
+
+	#main{
+		padding: 150px 0;
+	}
+	#main>section{
+		width: 100%;
+		margin: 100px auto;
+	}
+	.container{
+		width: 100%;
+	}
+	.row{
+		padding-top: 50px;
+	}
+	#main .major p img{
+		margin-top: 30px;
+	}
+	header.major{
+		padding: 0 3em;
+	}
+	
+	#Introduce_1 .circle_01 .circle_01_text{
+		width:300px;
+		height:120px;
+		line-height: 60px;
+		position:absolute;
+		top:100px;
+		left:0;
+		text-align:center;
+	}
+	#Introduce_1 .circle_01 .circle_01_text .circle_title{
+		font-size:30px;
+		letter-spacing:5px;
+		width:300px;
+	}
+	#Introduce_1 .circle_01 .circle_01_text .circle_div{
+		font-size:16px;
+		letter-spacing:1px;
+		color:#444444;
+	}
+	#Introduce_1 .circle_01 .circle_01_left{
+		width: 300px;
+		height: 300px;
+		animation:none;
+		-webkit-animation:none;
+		opacity: 1;
+		left:5%;
+	}
+	#Introduce_1 .circle_01 .circle_01_right{
+		width: 300px;
+		height: 300px;
+		animation:none;
+		-webkit-animation:none;
+		opacity: 1;
+		right: 5%;
+	}
+	#Introduce_1 .div_arrow{
+		top: -50px;
+	}
+	#Introduce_1 #arrow, #Introduce_1 #arrow2{
+		width: 35px !important;
+	}
+
+	#Introduce_2 .circle_result_icon{
+		width: 30% !important;
+		margin-top: 0;
+		float: left !important;
+	}
+	#Introduce_2 .circle_result_title{
+		width: 69% !important;
+		margin-top: 0;
+		float: right !important;
+	}
+	#Introduce_2 .circle_result_title h2{
+		font-size: 20px;
+		line-height: 40px;
+	}
+	#Introduce_2 .circle_result_icon img{
+		top: 130px;
+		right: 40px;
+	}
+
+	#Introduce_3{
+		width: 100vw !important;
+		height: 60vh !important;
+	}
+	#Introduce_3 .bgimg_01{
+		width: 100vw !important;
+		margin: 0;
+		position: inherit;
+		background-size: 200%;
+	}
+	#Introduce_5{
+		width: 100vw !important;
+		height: 60vh !important;
+	}
+	#Introduce_5 .bgimg_05{
+		width: 100vw !important;
+		margin: 0;
+		position: inherit;
+		background-size: 200%;
+	}
+
+	.features{
+		margin-top: 100px !important;
+	}
+	#Introduce_4 .UDfuture_title span{
+		margin-left: auto;
+	}
+	#Introduce_4 .UDfuture_title{
+		width: 100%;
+	}
+	#Introduce_4 .ud_analyze img{
+		text-align: left;
+	}
+	.UDfuture_0, .UDfuture_02, .UDfuture_03{
+		margin-left: -40px;
+	}
+
+	
+
+} 
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+ 
+
+
+} 

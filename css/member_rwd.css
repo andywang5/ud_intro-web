@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1024px) {
+    .box.person{
+
+    }
+    section.special, article.special {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .flex {
+        flex-direction: column;
+    }
+}
