@@ -49,6 +49,7 @@
     }
     .rwd_hide{
         display: none;
+        border-bottom: dotted 0px;
     }
     .about_img{
         padding-bottom: 1rem;
