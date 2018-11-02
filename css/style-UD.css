@@ -807,8 +807,9 @@ section.special, article.special {
 				}
 		
 				.box.person {
-					border: solid 1px rgba(255, 255, 255, 0.25);
-					padding: 3em 1.5em;
+					    border: solid 1px rgba(255, 255, 255, 0.25);
+						padding: 3em 1.5em;
+						margin: 0 2rem 2rem 2rem;
 				}
 		
 					.box.person h3 {
@@ -892,7 +893,7 @@ section.special, article.special {
 									-moz-justify-content: space-between;
 									-webkit-justify-content: space-between;
 									-ms-justify-content: space-between;
-									justify-content: space-between;
+									justify-content: center;
 								}
 							
 									.flex.flex-2 article {

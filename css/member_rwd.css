@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1024px) {
     .box.person{
-
+        margin: 2rem 0;
     }
     section.special, article.special {
         text-align: center;
