@@ -618,6 +618,9 @@ body,html{
 	letter-spacing:10px !important;
 	text-align:left;
 }
+.rwd_hide{
+	border-color: #FFF;
+}
 .vr-box .about_div{
 	float:left;
 	width:80%;
