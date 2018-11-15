@@ -663,7 +663,17 @@ body,html{
 	bottom:0;
 	right:5%;
 }
-#v-box8 .about_div img{
+#v-box9 .about_div div{
+	width:100%;
+	text-align: center;
+}
+#v-box9 .about_div img{
+	width:80%;
+}
+#v-box9 .about_div p{
+	padding-top: 80px;
+}
+#v-box10 .about_div img{
 	width:30%;
 	position:absolute;
 	bottom:0;
