@@ -24,12 +24,12 @@
 	background-repeat: no-repeat;
 	margin-left: 40%;
 }
-.ud-ai{
+.ud-bigdata{
 	display: block;
 	width: 23%;
 	height: 130px;
 	background-size: 100%;
-	background-image: url('../images/icon/ai.png');
+	background-image: url('../images/icon/big-data.png');
 	background-repeat: no-repeat;
 	margin-left: 40%;	
 }

@@ -638,7 +638,7 @@ body,html{
 #v-box1 .about_div img{
 	width:30%;
 	position:absolute;
-	bottom:0;
+	bottom:1;
 	right:0;
 }
 #v-box3 .about_div img{
